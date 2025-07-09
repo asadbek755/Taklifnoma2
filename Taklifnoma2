@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To‘y Taklifnomasi - Asadbek & Mohiniso</title>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+    text-align: center;
+    background: url('https://images.unsplash.com/photo-1520975869010-1c52e9f2b47a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+    background-size: cover;
+}
+.overlay {
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    margin: 100px auto;
+    background: rgba(255,255,255,0.1);
+    padding: 30px;
+    border-radius: 15px;
+}
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+.date, .place {
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 1.3em;
+}
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    background: #ffd700;
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.button:hover {
+    background: #ffc107;
+}
+</style>
+</head>
+<body>
+
+<audio autoplay loop>
+  <source src="https://www.bensound.com/bensound-music/bensound-romantic.mp3" type="audio/mpeg">
+  Sizning brauzeringiz audio pleerni qo‘llab-quvvatlamaydi.
+</audio>
+
+<div class="overlay"></div>
+
+<div class="container">
+    <h1>To‘y Taklifnomasi</h1>
+    <p>Aziz do‘stlar va yaqinlar!</p>
+    <p>Biz, <strong>Asadbek</strong> va <strong>Mohiniso</strong>,</p>
+    <p>sizlarni ushbu kundagi unutilmas visol oqshomimizning aziz mehmoni bo‘lishga lutfan taklif etamiz.</p>
+
+    <p class="date">📅 Sana: 10-avgust, 2025-yil</p>
+    <p class="place">📍 Manzil: Qo‘qon shahar, O‘zbegim to‘yxonasi</p>
+
+    <div style="margin-top:30px;">
+        <a href="tel:+998901234567" class="button">📞 Qo‘ng‘iroq qilish</a>
+        <a href="https://maps.google.com/?q=O'zbegim+to'yxonasi+Qo'qon" class="button" target="_blank">🗺 Yo‘lni ko‘rsatish</a>
+    </div>
+
+    <p style="margin-top:20px;">Sizni kutib qolamiz!</p>
+</div>
+
+</body>
+</html>
